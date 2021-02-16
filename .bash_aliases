@@ -50,6 +50,7 @@ alias dudir="du -chd 1 | sort -h"
 # git
 alias gs="git status"
 alias ga.="git add ."
+alias gc-m="git commit -m"
 alias gpoh="git push origin head"
 # cd to en folder in obsidian-docs
 alias obsidianen="cd ~/vaults/0/mac/obsidian/obsidian-docs/en/"
