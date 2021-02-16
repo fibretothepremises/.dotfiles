@@ -1,0 +1,9 @@
+[user]
+	name = Fibre P
+	email = fttx5525@gmail.com
+[color]
+	ui = auto
+[init]
+	defaultBranch = main
+[hub]
+	protocol = https
