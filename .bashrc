@@ -7,3 +7,4 @@ export NVM_DIR="$HOME/.nvm"
 #load aliases
 # [ -f ~/.bash_aliases ] && . ~/.bash_aliases 
 
+source "$HOME/.cargo/env"

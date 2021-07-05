@@ -8,17 +8,25 @@
 # ╚══════╝   ╚═╝   ╚═╝  ╚═══╝╚═════╝ 
                      
 # nav
-alias ..="cd .."
-alias ...="cd ../.."
-alias ....="cd ../../.."
-alias .....="cd ../../../.."
+alias b="cd .."
+alias bb="cd ../.."
+alias bbb="cd ../../.."
+alias bbbb="cd ../../../.."
 # fix missing space typos
 alias cd..="cd .."
 # cd
+alias c="cd"
+alias h="cd"
+alias APPS="cd /Applications"
+alias ap="cd ~/Applications"
 alias dl="cd ~/Downloads"
-alias desk="cd ~/Desktop"
-alias doc="cd ~/Documents"
-alias home="cd ~"
+alias dk="cd ~/Desktop"
+alias do="cd ~/Documents"
+alias li="cd ~/Library"
+alias mo="cd ~/Movies"
+alias mi="cd ~/Music"
+alias pi="cd ~/Pictures"
+alias pb="cd ~/Public"
 # chrome
 alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
 alias canary='/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary'
@@ -45,13 +53,56 @@ alias reload="exec ${SHELL} -l"
 # ██║ ╚═╝ ██║██║██║ ╚████║███████╗
 # ╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝╚══════╝
                                 
+# zxc
+# open
+alias o="open"
+ov() {
+	open "obsidian://vault/$1"
+}
+
 # sort subdirectories in current directory by file size
 alias dudir="du -chd 1 | sort -h"
+
 # git
 alias gs="git status"
 alias ga.="git add ."
 alias gc-m="git commit -m"
 alias gpoh="git push origin head"
-# cd to en folder in obsidian-docs
+alias glo="git log --oneline"
+alias gloa="git log --oneline --all"
+
+# ruby
+alias rs="ruby script.rb"
+
+# cd
 alias obsidianen="cd ~/vaults/0/mac/obsidian/obsidian-docs/en/"
 alias mastermind="cd ~/dev/the-odin-project/full-stack-ruby-on-rails/ruby-programming/object-oriented-programming-basics/mastermind/"
+alias jsodin="cd ~/dev/the-odin-project/full-stack-javascript/"
+alias cosc2801="cd ~/vaults/0/mac/java/cosc2801/"
+alias macnotes="cd ~/vaults/0/mac/"
+alias ideas="cd ~/vaults/ideas/"
+alias m1="cd ~/rmit-cs/m1/"
+alias covid="cd ~/repos/cosc2803-2110-studio-project-bp094p21/"
+
+# ls
+alias s="ls"
+alias sl="ls -l"
+alias sa="ls -a"
+alias sla="ls -la"
+
+# Shut down after showing a confirmation dialog
+alias gnite="osascript -e 'tell app \"loginwindow\" to «event aevtrsdn»'"
+
+# vim edits
+alias ali="vim ~/.bash_aliases"
+
+# empty trash
+alias emptytrash="sudo rm -rf ~/.Trash/*"
+alias trash="open ~/.Trash/"
+
+# hugo
+alias hs="hugo server"
+alias hsd="hugo server -D"
+
+# obsidian-export
+alias oe="obsidian-export"
