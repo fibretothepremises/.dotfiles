@@ -53,7 +53,7 @@ alias reload="exec ${SHELL} -l"
 # ██║ ╚═╝ ██║██║██║ ╚████║███████╗
 # ╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝╚══════╝
                                 
-# zxc
+# mine
 # open
 alias o="open"
 ov() {
