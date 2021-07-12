@@ -83,6 +83,7 @@ alias macnotes="cd ~/vaults/0/mac/"
 alias ideas="cd ~/vaults/ideas/"
 alias m1="cd ~/rmit-cs/m1/"
 alias covid="cd ~/repos/cosc2803-2110-studio-project-bp094p21/"
+alias v="cd ~/vaults"
 
 # ls
 alias s="ls"
@@ -106,3 +107,6 @@ alias hsd="hugo server -D"
 
 # obsidian-export
 alias oe="obsidian-export"
+
+# ssh
+alias hserver="ssh harry@192.168.20.8"
