@@ -3,4 +3,4 @@
 these are my dotfiles.
 
 ## contact
-my discord: sparky#8088
+my discord: jinheock#8345
